@@ -73,6 +73,7 @@ h1,h2,h3,h4,h5,h6,p {
 
 }
 .button {
+    padding: 16px 32px;
     font-weight: 600;
     color: var(--color-primary-light);
     border-radius: 8px;
@@ -85,6 +86,12 @@ address {
     font-style: normal;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
 /* link */
 
 .link {
@@ -94,10 +101,35 @@ address {
 }
 
 .link:hover {
-    font-weight: 600;
     color: var(--color-brand-light);
 }
 
+/* Header */
+
+header {
+    background-color: rgb(171, 164, 164);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 40px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 40px;
+    flex-grow: 1;
+    justify-content: center;
+
+}
 /* Hero section */
 
 .hero-section {
@@ -117,14 +149,23 @@ address {
     color: var(--color-brand-light);
 }
 
-.advantages-list {
-    color: var(--color-primary-light);
+/* Advantages-section */
+
+.advantages-section {
+    padding: 16px 0;
     background-color: var(--color-brand-light);
+}
+
+.advantages-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .advantages-item {
     font-size: 20px;
     font-weight: 300;
+    color: var(--color-primary-light);
 }
 
 .section-title {
@@ -137,10 +178,22 @@ address {
     color: var(--color-brand-dark);
 }
 
+
 /* Traditions section */
+
 
 .tradition-section {
     padding-top: 96px;
+}
+
+.tradition-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.tradition-content {
+    max-width: 710px;
 }
 
 .tradition-title {
@@ -156,7 +209,12 @@ address {
     text-transform: uppercase;
 }
 
+.tradition-text.limited {
+    max-width: 340px;
+}
+
 /* Chefs section */
+
 
 .chefs-title {
     margin-bottom: 80px;
@@ -168,14 +226,31 @@ address {
     margin-bottom: 16px;
 }
 
+
 /* Format-section */
+
+
+.formats-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.formats-item {
+    flex-basis: calc((100% - 40px) / 3);
+}
+.formats-card {
+    padding: 24px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(49, 38, 26, 0.00) 55.21%, rgba(49, 38, 26, 0.71) 72.92%, #31261A 100%);
+}
+
 
 .formats-title {
     margin-bottom: 80px;
 }
 
 .format-title {
-    color: var(--color-primary-light);
     font-size: 24px;
     font-weight: 600;
 }
