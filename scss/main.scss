@@ -1,0 +1,68 @@
+
+@import './utils/fonts';
+@import './utils/variables';
+@import'./utils/utils';
+
+@import './base';
+
+@import './components/buttons.scss';
+@import './components/links.scss';
+
+.section {
+    padding: 48px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+@import './components/header.scss';
+
+/* Hero section */
+
+@import './components/hero_sections.scss';
+
+/* Advantages-section */
+
+@import './components/advantages-section';
+
+/* Traditions section */
+
+@import './components/tradition-section';
+
+/* Chefs section */
+
+@import './components/cookers-section';
+
+
+/* Format-section */
+
+@import './components/format-section';
+
+
+/* Carousel */
+
+@import './components/carousel';
+
+/* Contact section */
+
+@import './components/contact-section';
+
+/* Footer */
+
+@import './components/footer';
+
+
+
+/* Modal */
+
+@import './components/_modal.scss';
+
+
+/* Form */
+
+@import './components/form';
