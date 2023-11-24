@@ -3,8 +3,9 @@
     line-height: 1.5;
     text-decoration: none;
     transition: color 0.5s;
+
+    &:hover {
+        color: var(--color-brand-light);
+    }
 }
 
-.link:hover {
-    color: var(--color-brand-light);
-}

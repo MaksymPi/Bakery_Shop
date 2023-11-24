@@ -2,6 +2,7 @@
 @import './utils/fonts';
 @import './utils/variables';
 @import'./utils/utils';
+@import'./utils/_texts';
 
 @import './base';
 
@@ -20,28 +21,33 @@
 
 /* Header */
 
-@import './components/header.scss';
+@import './layouts/header';
 
 /* Hero section */
 
-@import './components/hero_sections.scss';
+@import './layouts/hero_sections';
 
 /* Advantages-section */
 
-@import './components/advantages-section';
+@import './layouts/advantages-section';
 
 /* Traditions section */
 
-@import './components/tradition-section';
+@import './layouts/tradition-section';
+
+/* Section */
+
+@import './layouts/section';
 
 /* Chefs section */
 
-@import './components/cookers-section';
-
+@import './layouts/cookers-section';
+@import './layouts/chef-card';
 
 /* Format-section */
 
-@import './components/format-section';
+@import './layouts/format-section';
+@import './layouts/format-card';
 
 
 /* Carousel */
@@ -50,11 +56,12 @@
 
 /* Contact section */
 
-@import './components/contact-section';
+@import './layouts/contact-section';
+@import './components/form-terms'
 
-/* Footer */
+/* Footer */;
 
-@import './components/footer';
+@import './layouts/footer';
 
 
 

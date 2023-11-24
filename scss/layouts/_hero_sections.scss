@@ -5,17 +5,13 @@
     background-repeat: no-repeat;
     background-position: center  top;
     background-size: cover;
-}
 
-.here-title {
-    margin-bottom: 0;
-    color: var(--color-primary-light);
-    text-align: center;
-    font-family: 'Poppins';
-    font-size: 128px;
-    font-weight: 900;
-}
-
-.here-title .accent {
-    color: var(--color-brand-light);
+    &__title {
+        margin-bottom: 0;
+        color: var(--color-primary-light);
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 128px;
+        font-weight: 900;
+    }
 }

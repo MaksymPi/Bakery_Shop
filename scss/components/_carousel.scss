@@ -9,12 +9,15 @@
     background-color: transparent;
     border: 1px solid transparent;
     cursor: pointer;
+
+    &:hover {
+        background-color: var(--color-primary-dark);
+    }
+
+    &__arrow {
+        fill: var(--color-primary-dark);
+    }
 }
 
-.carousel-button:hover {
-    background-color: var(--color-primary-dark);
-}
 
-.carousel-arrow {
-    fill: var(--color-primary-dark);
-}
+
