@@ -8,7 +8,7 @@
     bottom: 0;
     left: 0;
     background-color: rgb(0, 0, 0, 0.5);
-    padding: 20px 0;
+    padding: 20px;
     transition: opacity 0.5s, visibility 0.5s;
 
     &.is-hidden {
@@ -21,7 +21,7 @@
 
 .modal {
     position: relative;
-    padding: 128px;
+    padding: 48px;
     width: 100%;
     max-width: 880px;
     height: 100%;
@@ -29,6 +29,10 @@
     border-radius: 32px;
     background-color: var(--color-primary-light);
     overflow-y: auto;
+
+    @media screen and (min-width:$--bp-tablet) {
+        padding: 128px;
+    }
 
     &__btn-close {
         position: absolute;
@@ -41,7 +45,6 @@
     }
 
     &__button {
-        display: block;
         margin: 0 auto 24px;
     }
 }

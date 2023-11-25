@@ -9,8 +9,13 @@ body {
     background-color: var(--color-primary-light);
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 300;
+
+    @media screen and (min-width:$--bp-tablet) {
+        font-size: 18px;
+        font-weight: 400;
+    }
 }
 
 h1,
@@ -21,6 +26,13 @@ h5,
 h6,
 p {
     margin-top: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 a {
