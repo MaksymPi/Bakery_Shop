@@ -253,7 +253,7 @@ ul {
 /* Hero section */
 .hero-section {
   padding: 124px 0;
-  background-image: linear-gradient(103deg, rgba(18, 18, 17, 0.78) 2.03%, rgba(18, 18, 17, 0.6) 58.46%, rgba(18, 18, 17, 0) 90.36%), url(../img/here-fon.jpg);
+  background-image: linear-gradient(103deg, rgba(18, 18, 17, 0.78) 2.03%, rgba(18, 18, 17, 0.6) 58.46%, rgba(18, 18, 17, 0) 90.36%), url(img/here-fon.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -265,7 +265,7 @@ ul {
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-section {
-    background-image: linear-gradient(103deg, rgba(18, 18, 17, 0.78) 2.03%, rgba(18, 18, 17, 0.6) 58.46%, rgba(18, 18, 17, 0) 90.36%), url(../img/here-fon@2x.jpg);
+    background-image: linear-gradient(103deg, rgba(18, 18, 17, 0.78) 2.03%, rgba(18, 18, 17, 0.6) 58.46%, rgba(18, 18, 17, 0) 90.36%), url(img/here-fon@2x.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
